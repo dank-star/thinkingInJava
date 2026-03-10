@@ -12,6 +12,10 @@ public class Property {
                        + rt.totalMemory()
                        + " Free Memory = "
                        + rt.freeMemory());
+    try {
+      Thread.currentThread().sleep(5 * 1000);
+    } catch(InterruptedException e) {}
+  
   }
 }
                        
