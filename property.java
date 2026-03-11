@@ -17,5 +17,5 @@ public class Property {
     } catch(InterruptedException e) {}
   
   }
-}
+} ///:~
                        
