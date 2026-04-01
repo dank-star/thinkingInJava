@@ -20,7 +20,7 @@ public final class Month2 {
     NOV = new Month2("November"),
     DEC = new Month2("December");
   public final static Month2[] month = {
-    JAN, FEB, MAR, APR, MAY, JUN,
+    JAN, JAN, FEB, MAR, APR, MAY, JUN,
     JUL, AUG, SEP, OCT, NOV, DEC
   };
   public static void main(String[] args) {
